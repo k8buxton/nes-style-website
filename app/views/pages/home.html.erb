@@ -1,2 +1,55 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'shared/homepage_carousel' %>
+
+<div class="image-container mt-3">
+  <h3 class="mb-5">WOMENS</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892241/shutterstock_496508737.jpg", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892234/shutterstock_602669993.jpg", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892241/attractive-beautiful-beautiful-woman-3069287.jpg", class: "img-fluid position-top"%>
+    </div>
+  </div>
+</div>
+
+<div class="image-container">
+  <h3 class="mb-5">MENS</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892235/shutterstock_510909181.jpg", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892235/shutterstock_1022031901.jpg", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892237/shutterstock_507406141.jpg", class: "img-fluid position-top"%>
+    </div>
+  </div>
+</div>
+
+<div class="image-container">
+  <h3 class="mb-5">KIDS</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-9">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892240/shutterstock_428585305.jpg", class: "img-fluid position-top"%>
+    </div>
+    <div class="col-sm-12 col-md-3">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892234/shutterstock_314542793.jpg", class: "img-fluid position-top"%>
+    </div>
+  </div>
+</div>
+
+<div class="image-container">
+  <h3 class="mb-5">FOOTWEAR & LEATHER ACCESSORIES</h3>
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892233/shutterstock_368660738.jpg", class: "img-fluid"%>
+    </div>
+    <div class="col-sm-12 col-md-8">
+      <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572892240/shutterstock_1186134823.jpg", class: "img-fluid"%>
+    </div>
+  </div>
+</div>

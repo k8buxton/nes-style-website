@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <%= link_to "/", class: "d-flex" do %>
+    <%= image_tag "https://res.cloudinary.com/ddwuu1y0i/image/upload/v1572889638/nes-style-full-logo.png", class: "navbar-logo d-block" %>
+  <% end %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse dropdown-style" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="/about" class="nav-link">
+          About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/design-studio" class="nav-link">
+          Design Studio
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/contacts/new" class="nav-link nav-margin-bottom">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

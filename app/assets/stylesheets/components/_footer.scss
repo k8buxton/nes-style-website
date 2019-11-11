@@ -1,0 +1,40 @@
+.footer {
+  color: #9C3C28;
+  font-weight: 300;
+  height: 125px;
+  border-top: 1px solid;
+  margin: 0 20px;
+  img {
+    height: 50px;
+    margin-right: 16px;
+    @media (min-width: 769px) {
+      margin-right: 24px;
+      height: 80px;
+    }
+  }
+  h2 {
+  text-align: center;
+  letter-spacing: 12px;
+  font-weight: 300;
+  font-size: 26px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+    span {
+      font-weight: bold;
+    }
+  }
+  .footer-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-cities {
+    display: flex;
+    justify-content: center;
+    h3 {
+      font-weight: 400;
+      margin: 0px 10px;
+      font-size: 12px;
+    }
+  }
+}

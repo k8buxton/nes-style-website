@@ -1,1 +1,49 @@
 // Specific CSS for your home-page
+p, a {
+  font-family: 'Open Sans';
+  margin: 5px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(0,0,0);
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+h3 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3.5px;
+  line-height: 24px;
+}
+.image-container {
+  margin: 0 32px 160px 32px;
+  h3 {
+    margin-left: 50px;
+  }
+  .row {
+    div {
+      height: 200px;
+      @media (min-width: 992px) {
+        height: 250px;
+        display: flex;
+      }
+      padding: 4px;
+      @media (max-width: 768px) {
+        display: flex;
+      }
+      .img-fluid {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        @media (max-width: 768px) {
+          margin: auto;
+        }
+      }
+      .position-top {
+        object-position: 50% 0%;
+      }
+    }
+  }
+}

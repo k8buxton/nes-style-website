@@ -1,0 +1,13 @@
+.design-container {
+  margin-top: 150px;
+  margin-bottom: 200px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    max-width: none;
+    padding: 0;
+  }
+  .design-text {
+    @media (min-width: 768px) {
+      padding: 0 80px;
+    }
+  }
+}

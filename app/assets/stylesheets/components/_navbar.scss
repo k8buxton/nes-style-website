@@ -1,12 +1,77 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar {
+  background-color: #F4F4F4;
+  padding: 0px;
+  width: 100%;
+  @media (min-width: 992px) {
+    height: 100px;
+  }
+  .navbar-logo {
+    margin: 16px 0 16px 50px;
+    height: 50px;
+    @media (max-width: 768px) {
+      margin: 16px 0 16px 20px;
+    }
+  }
 }
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: rgb(0,0,0);
+  letter-spacing: 0.7px;
+  padding: 5px 8px 5px 14px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: .1s ease-in-out;
+  @media (max-width: 991px) {
+    padding: 12px 8px 12px 32px;
+    &:hover {
+      background-color: #EBE1DF;
+    }
+  }
+  @media (min-width: 992px) {
+    padding: 14px;
+    padding: 12px 16px;
+    text-transform: uppercase;
+  }
+  @media (min-width: 1200px) {
+    padding: 12px 20px;
+  }
 }
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-item i {
+  padding-left: 12px;
+  font-size: 15px;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: 0;
+  @media (min-width: 769px) {
+    margin-right: 50px;
+  }
+}
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+.dropdown-style {
+  @media (min-width: 992px) {
+    margin: auto;
+  }
+}
+.navbar-nav {
+  @media (max-width: 991px) {
+    align-self: center;
+    width: 100%;
+  }
+}
+.navbar-toggler-icon {
+  color: rgb(0,0,0);
+}
+.navbar-collapse {
+  justify-content: flex-end;
+  @media (min-width: 992px) {
+    margin-right: 50px;
+  }
+}
+.nav-margin-bottom {
+  @media (max-width: 991px) {
+    margin-bottom: 24px;
+  }
 }
